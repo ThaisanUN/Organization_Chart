@@ -1,0 +1,97 @@
+.orgchart{
+	position: relative;
+	top:50px;
+	left: 100px;
+	right: 100px;
+}
+.orgchart table{ 
+	border-collapse:collapse; 
+	padding:0; 
+	margin:0; 
+	top:0; 
+	min-width:100%;
+}
+.orgchart td{ 
+	vertical-align:top; 
+	text-align:center;
+}
+.orgchart th{ 
+	height:10px; 
+
+}
+.orgchart td .right{ 
+	border-right:3px solid #08a; 
+}
+.orgchart td .top{   
+	border-top:3px solid #08a; 
+ }
+.orgchart .width-50{   
+	width:50%;
+}
+.orgchart .charttext{
+	border:1px solid rgb(0, 0, 0); 
+	padding:0px; 
+	display:inline-block;
+	/* font-size:10px; */
+	/* width:70px;
+	height: 130px; */
+}
+.orgchart .charttext:hover { 
+	background:#FFFF98; 
+	
+	/* font-size: 20px; */
+}
+
+.image{
+	width:70px;
+	height:90px;
+}
+.popup {
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+                  }
+                  
+                  /* The actual popup */
+                  .popup .popuptext {
+                  content:"";
+	visibility: hidden;
+	width: 100%;
+	padding: 10px;
+	height:100%;
+	font-size:100px;
+	background-color:#ccc;
+	text-align: center;
+	position: absolute;
+	border:1px solid rgb(0, 0, 0); 
+                  }
+/* .next{
+	float: right;
+                   
+	
+}
+.next .prevous{
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.next:hover .prevous:hover{
+	width: 15px;
+	height: 15px;
+	top:30px;
+}
+.prevous{
+	float: left;
+                   
+} */
+ .edit .update .delete {
+	background-color: #FFFF98;
+}
