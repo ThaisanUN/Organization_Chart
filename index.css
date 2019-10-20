@@ -35,61 +35,70 @@
 	padding:0px; 
 	display:inline-block;
 	/* font-size:10px; */
-	width: 90px;
+	width: 130px;
                    min-height: 50px;
                   
 }
+.data1{
+	visibility: hidden;
+
+}
+/* .data{
+	padding:0px 2px;
+	margin: -9px 4px;
+} */
 .orgchart .charttext:hover { 
-	background:#FFFF98; 
+	background:rgba(161, 255, 152, 0.589); 
 	
 	/* font-size: 20px; */
 }
 
 .image{
-	width:90px;
+	width:130px;
 	height:100px;
 }
-#edit 
+.btn
 {
-                    float: right;
-                    font-size:10px;
-                    text-decoration: none;
-                    padding:0px;
+              
+                    font-size:15px;
+	text-decoration: none;
+                  	margin: 15px 70px;
+                 	min-width: 90px;
+                  
+}
+.container{
+	position: relative;
+	background-color: rgba(240, 255, 255, 0.664);
+	top: 100px;
+}
+.body{
+	background-image: url('inc/important/background.png');
+	/* Full height */
+	height: 540px; 
+
+	/* Center and scale the image nicely */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+                  }
+.file{
+	margin: 9px 0px;
+}
+#edit {
+	/* position: relative;
+	top:2px; */
+	text-decoration: none;
+	background-color: rgba(0, 136, 170, 0.322);
 }
 #add{
-	float: right;
-                    font-size:10px;
-                    text-decoration: none;
-                    padding:0px;
-	padding: 0px 2px;
+	/* position: relative;
+	top:2px; */
+	text-decoration: none;
+	background-color: rgba(0, 136, 170, 0.322);
 }
-#delete{
-	float: right;
-                    font-size:10px;
-                    text-decoration: none;
-                    padding:0px;
-	padding: 0px 2px;
+#delete {
+	/* position: relative;
+	top:2px; */
+	text-decoration: none;
+	background-color: rgba(0, 136, 170, 0.322);
 }
-/* .popup {
-	position: relative;
-	display: inline-block;
-	cursor: pointer;
-	-webkit-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
-                  }
-                  
-                  
-                  .popup .popuptext {
-                  content:"";
-	visibility: hidden;
-	width: 100%;
-	padding: 10px;
-	height:100%;
-	font-size:100px;
-	background-color:#ccc;
-	text-align: center;
-	position: absolute;
-	border:1px solid rgb(0, 0, 0); 
-                  } */
